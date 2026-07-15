@@ -7,6 +7,7 @@ cd build
 cmake ${CMAKE_ARGS} -G "Unix Makefiles" \
       -DCMAKE_BUILD_TYPE=Release \
       -DBUILD_SHARED_LIBS=ON \
+      -DDRACO_TRANSCODER_SUPPORTED=ON \
       -DDRACO_TESTS=OFF \
       ..
 
