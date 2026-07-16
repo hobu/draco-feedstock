@@ -81,6 +81,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-draco-green.svg)](https://anaconda.org/conda-forge/draco) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/draco.svg)](https://anaconda.org/conda-forge/draco) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/draco.svg)](https://anaconda.org/conda-forge/draco) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/draco.svg)](https://anaconda.org/conda-forge/draco) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-draco--transcoder-green.svg)](https://anaconda.org/conda-forge/draco-transcoder) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/draco-transcoder.svg)](https://anaconda.org/conda-forge/draco-transcoder) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/draco-transcoder.svg)](https://anaconda.org/conda-forge/draco-transcoder) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/draco-transcoder.svg)](https://anaconda.org/conda-forge/draco-transcoder) |
 
 Installing draco
 ================
@@ -92,16 +93,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `draco` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `draco, draco-transcoder` can be installed with `conda`:
 
 ```
-conda install draco
+conda install draco draco-transcoder
 ```
 
 or with `mamba`:
 
 ```
-mamba install draco
+mamba install draco draco-transcoder
 ```
 
 It is possible to list all of the versions of `draco` available on your platform with `conda`:
