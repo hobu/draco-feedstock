@@ -15,6 +15,7 @@ source:
     - start-group.patch
     - cxx17-filesystem.patch
     - tinygltf-fscallbacks.patch
+    - gltf-utils-cstdint.patch
 
 build:
   number: 2
